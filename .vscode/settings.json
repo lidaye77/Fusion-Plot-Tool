@@ -1,0 +1,16 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^python -m pip install -r requirements\\.txt$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        ".\\build.bat": true,
+        ".\\dist\\MergeTool.exe": true,
+        "/^python -m py_compile ui\\.py$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "ForEach-Object": true,
+        "Group-Object": true
+    }
+}
